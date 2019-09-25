@@ -3,4 +3,4 @@ lineas-02.hola
 lineas-03.hola
 lineas-04.hola
 
-Este es el index actualizado que se les va a actualizar también
+Este es el archivo actualizado que se les va a actualizar también
