@@ -4,9 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ejemplo 1</title>
+  <title>Hoja de vida</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Título de la página</h1>
+
+  <div class="container">
+    <h1>Hoja de vida</h1>
+    <div class="row">
+      <div class="col-4">
+        Columna de links
+        <button type="button" class="btn btn-success">Success</button>
+      </div>
+      <div class="col-8">
+        Columna de galería
+      </div>
+    </div>
+    <div class="row">
+      <div id="columnaroja" class="col-3">Col1</div>
+      <div class="col-3 columnaverde">Col2</div>
+      <div class="col-3 columnaverde">Col3</div>
+      <div class="col-3 columnaverde">Col4</div>
+    </div>
+    <div class="row">
+      <article class="columnaverde">
+        Este es un articulo
+      </article>
+    </div>
+  </div>
+
 </body>
 </html>
